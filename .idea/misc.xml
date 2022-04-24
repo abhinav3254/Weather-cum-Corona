@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Abhinav Android/Weather/app/src/main/res/drawable/ic_error.xml" value="0.26614583333333336" />
         <entry key="..\:/Abhinav Android/Weather/app/src/main/res/drawable/rectangle_box.xml" value="0.26614583333333336" />
+        <entry key="..\:/Abhinav Android/Weather/app/src/main/res/layout/activity_corona.xml" value="0.25" />
         <entry key="..\:/Abhinav Android/Weather/app/src/main/res/layout/activity_dash_board.xml" value="0.25" />
         <entry key="..\:/Abhinav Android/Weather/app/src/main/res/layout/activity_main2.xml" value="0.25" />
         <entry key="..\:/Abhinav Android/Weather/app/src/main/res/layout/activity_splash.xml" value="0.25" />

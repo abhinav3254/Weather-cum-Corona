@@ -2,6 +2,7 @@ package com.example.weather;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -35,6 +36,14 @@ public class DashBoardActivity extends AppCompatActivity {
         setContentView(view);
 
         getSupportActionBar().hide();
+
+        binding.goToCorona.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(DashBoardActivity.this,CoronaActivity.class);
+                startActivity(intent);
+            }
+        });
 
         binding.searchIt.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Weather">
         <activity
+            android:name=".CoronaActivity"
+            android:exported="false" />
+        <activity
             android:name=".DashBoardActivity"
             android:exported="false" />
         <activity

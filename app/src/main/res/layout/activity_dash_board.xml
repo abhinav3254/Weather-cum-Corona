@@ -318,6 +318,18 @@
                 </LinearLayout>
 
 
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/goToCorona"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:text="Corona Cases"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="@color/pink"
+                    />
+
+
             </LinearLayout>
 
         </LinearLayout>
